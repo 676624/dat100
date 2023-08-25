@@ -28,7 +28,9 @@ public class Oppgave_4 {
 	    int minutter = sekunder / 60;
 	    sekunder %= 60;
 
-	    showMessageDialog(null, sekunderInput + " sekunder tilsvarer:\n" 
-    							+ timer + " timer, " + minutter + " minutter, " + sekunder + " sekunder");
+	    showMessageDialog(null,
+	    		sekunderInput + " sekunder tilsvarer:\n"+
+	    		timer + " timer, " + minutter + " minutter, " + sekunder + " sekunder"
+		);
 	}
 }
